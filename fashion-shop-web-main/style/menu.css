@@ -1,0 +1,157 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 20px;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid var(--hov-color);
+    z-index: 1;
+    transition: 0.2s;
+}
+
+header li a, header *:not(li a) {
+    color: inherit;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.menu {
+    flex: 3;
+    display: flex;
+}
+
+.menu>li, .sub-menu-hienthi-dangnhap {
+    padding: 0 12px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.menu>li>a {
+    text-transform: uppercase;
+}
+
+.menu li a {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+}
+
+.menu>li:hover .sub-menu{
+    visibility: visible;
+    top: 35px;
+    border-radius: var(--small-border);
+    box-shadow: var(--shadow) rgba(var(--light-khaki), 0.2);
+    opacity: 0.95;
+}
+
+.li_dangnhap:hover .sub-menu-hienthi-dangnhap{
+    visibility: visible;
+    top: 35px;
+    border-radius: var(--small-border);
+    box-shadow: var(--shadow) rgba(var(--light-khaki), 0.2);
+    opacity: 0.95;
+    cursor: pointer;
+}
+.sub-menu, .sub-menu-hienthi-dangnhap {
+    position: absolute;
+    border: 0px solid #ccc;
+    visibility: hidden;
+    padding: 15px;
+    top: 50px;
+    transition: 0.1s;
+    z-index: 1;
+    color: black;
+    background-color: var(--light-khaki);
+}
+
+.sub-menu ul {
+    padding-left: 20px;
+}
+
+.sub-menu>li>a, .sub-menu-hienthi-dangnhap {
+    font-weight: 700;
+    font-size: 13px;
+}
+.sub-menu ul a {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.sale>ul>li>a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale span+span {
+    color: red;
+    margin-left: 30px;
+}
+
+.orthers {
+    flex: 2;
+    display: flex;
+}
+
+.orthers i {
+    font-size: 25px;
+}
+
+.orthers>li {
+    padding: 0 12px;
+    position: relative;
+}
+
+.orthers>li:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80%;
+    background: #cccccc;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.orthers>li:first-child {
+    position: relative;
+    flex: 1;
+}
+
+#input1 {
+    width: 100%;
+    border: none;
+    margin-left: 120px;
+    border-bottom: 1px solid currentColor;
+    background: transparent;
+    outline: none;
+}
+
+.btn-search {
+    display: flex;
+}
+
+.sp_timkiem {
+    cursor: pointer;
+}
+
+.menu-gap {
+    height: 70px;
+    overflow: hidden;
+}
+
+section {
+    background-color: var(--bg-dark);
+}

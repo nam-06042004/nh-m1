@@ -1,0 +1,10 @@
+- Clone git vô www của wampp hoặc htdocs của xampp có gì chạy cho tiện
+- Bỏ code front-end tạm vào thư mục fashion-shop-web
+- Dùng đường dẫn tương đối dạng /x/y không được dùng đường dẫn tuyệt đối dạng C:/a/b/c để máy của ae khác không lỗi bị sai đường dẫn
+- Code riêng css bỏ vào thư mục /style
+- Code js bỏ vào thư mục /js
+- Tương tự với hình ảnh
+- Đặt tên file css js trùng với php mình làm, để dễ nhận biết
+- Mỗi thẻ đặt tên class theo quy tắc BEM, đặt tên tiếng Anh cho chắc cú hehe
+- Anh em có thể dùng fontawesome để lấy icon
+- Trước khi làm hay commit thì nên pull xuống(nếu có), để khi làm xong push lên không bị xung đột

@@ -1,0 +1,58 @@
+.dangnhap {
+    width: 380px;
+    box-shadow: var(--shadow) rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: var(--border);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: white;
+}
+
+form>h2 {
+    text-transform: uppercase;
+    color: var(--purple-title);
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+form>div>* {
+    display: block;
+}
+
+form>div button, form>div input{
+    padding: 10px 4px;
+    width: 100%;
+    border-radius: var(--border);
+}
+
+.dangnhap>div.form-group {
+    margin-top: 10px;
+}
+
+.form-group>label {
+    margin-bottom: 4px;
+}
+
+.dangnhap input {
+    border-color: #D0C8C8;
+    border-width: 1px;
+}
+
+.login {
+    margin-top: 10px;
+}
+
+.btdangnhap {
+    margin-top: 30px;
+}
+
+.btdangky {
+    margin-top: 6px;
+}
+
+section {
+    position: relative;
+    height: 92vh;
+}

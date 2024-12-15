@@ -1,0 +1,29 @@
+footer {
+    background-color: var(--color-black);
+    display: flex;
+    padding: 40px 20px;
+    font-size: 90%;
+    justify-content: space-around;
+}
+
+footer, footer li a {
+    color: white;
+}
+
+footer>div>h3 {
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+footer>div ul li span {
+    font-weight: 500;
+}
+
+footer ul img {
+    width: 30px;
+    border-radius: var(--small-border);
+}
+
+.footer--center a+a {
+    margin-left: 10px;
+}

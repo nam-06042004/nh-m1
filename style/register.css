@@ -1,0 +1,85 @@
+.register {
+    margin-bottom: 40px;
+    font-size: 105%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    box-shadow: var(--shadow) rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: var(--border);
+}
+
+.account__detail {
+    width: 45%;
+}
+
+.user__detail {
+    width: 55%;
+}
+
+.form-group>*:not(.form-message) {
+    display: block;
+    width: 100%;
+}
+
+.form-group>label {
+    font-size: 85%;
+}
+
+.register .form-group {
+    margin-top: 15px;
+}
+
+.register input, .register textarea, #btn-register {
+    border-radius: var(--border);
+    padding: 8px 8px 10px 8px;
+    font-size: 90%;
+}
+
+.register input, .register textarea {
+    border: 1px solid #D0C8C8;
+    margin-top: 2px;
+}
+
+input.invalid, textarea.invalid {
+    border-color: red;
+}
+
+.form-group .form-message {
+    color: red;
+    font-size: 70%;
+}
+
+input.invalid, textarea.invalid {
+    outline: none;
+}
+
+.register textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#btn-register {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.register>div>h2 {
+    color: var(--purple-title);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.account__detail {
+    margin-right: 60px;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

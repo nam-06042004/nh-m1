@@ -1,0 +1,372 @@
+/* reset css*/
+/* reset css*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+1. từ ngoài vào trong
+2. từ trên xuống dưới
+3.từ tổng quan đến chi tiết
+*/
+
+/*
+1. vị trí
+2. kích thước
+3.màu sắc
+4.kiểu dáng
+*/
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-third {
+    width: 33.3333%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+#main {}
+
+.mainsp {
+    background-color: #000;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav,
+.subnav {
+    list-style-type: none;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.search-btn {
+    float: right;
+    padding: 0 21px;
+
+}
+
+.search-btn:hover {
+    color: #FFF;
+    background-color: #f44336 !important;
+
+}
+
+.search-btn .search-icon {
+    font-size: 30px;
+    color: #FFF;
+    line-height: 46px;
+
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav>li:hover>.subnav {
+    display: block;
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    display: block;
+    font-size: 16px;
+}
+
+/*#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}*/
+.canhan {
+    text-align: right;
+    display: block;
+    position: absolute;
+    right: 1px;
+}
+
+.subnav-li {
+    font-size: 15px;
+}
+
+.container {
+    margin-top: 46px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    border: 5px;
+}
+
+.text-infor1 {
+    color: #ee4d2d;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-info {
+    padding: 20px;
+    font-weight: 20px;
+    font: optional;
+    text-align: center;
+    font-size: 13px;
+}
+
+#footer {
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+#footer-hoadon {
+    position: relative;
+
+
+}
+
+.div-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: #FFF;
+}
+
+.text-khachhang {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text {
+    background-color: #FFF;
+}
+
+.div-table {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.text1:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 204, 204);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container-cthd {
+    background-color: rgba(204, 204, 204, 0.6);
+    width: 50%;
+    margin-right: 10px;
+    z-index: 0;
+
+
+
+}
+
+.haithang {
+    display: flex;
+}
+
+.text-cthd {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800px;
+    font-style: italic;
+
+}
+
+.header-text-cthd {
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.container0 {
+    background-color: #000;
+}
+
+.hinhanh_sp {
+    width: 70px;
+    height: 70px;
+}
+
+.table_sp {}
+
+.btn_sp, .btn-mgg, .btn_them_insert{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: white;
+    background: #000;
+}
+.btn_sp, .btn-mgg:hover{
+    color: #000;
+    background-color:#cccccc;
+    padding-bottom: 10px;
+}
+.header-sp{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.header-text-sp{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.btn-mgg{
+    text-align: center;
+}
+/*---------*/
+.div-insert-mgg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #e9d8f4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+  border: 3px solid #58257b;
+  }
+  .lb-insert{
+      font-size: 15px;
+  }
+  .table_mgg{
+      width: 600px;
+      height: 10px;
+      background-color: red;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+  }
+  .btn_them_insert:hover{
+    color: #000;
+    background-color:#cccccc;
+    padding-bottom: 10px;
+  }
+  .tb1{
+      position: relative;
+      width: 700px;
+      height: 200px;
+      background-color: black;
+  }
+  .div-button-them{
+      position: absolute;
+      text-align: center;
+      right: 30px;
+      padding-top: 50px;
+  }
